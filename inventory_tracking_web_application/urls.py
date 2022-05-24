@@ -29,5 +29,4 @@ urlpatterns = [
     path('profile/update/', user_views.profile_update, name='user-profile-update'),
     path('', auth_view.LoginView.as_view(template_name='user/login.html'), name='user-login'),
     path('logout/', auth_view.LogoutView.as_view(template_name='user/logout.html'), name='user-logout'),
-
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -22,8 +22,9 @@
                                 {% csrf_token %}
                                 {{ user_form|crispy }}
                                 {{ profile_form|crispy }}
+                                <input class="btn btn-info" type="submit" value="Update">
                             </form>
-                            <input class="btn btn-info" type="submit" value="Update">
+                            
                         </div>
                     </div>
                 </div>
