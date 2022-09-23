@@ -2,6 +2,8 @@ import imp
 from django.urls import path
 from . import views
 
+# define the paths
+# format: path('path address', views.functionName, name='giveAName')
 urlpatterns =[
     path('dashboard/', views.index, name='dashboard-index'),
     path('staff/', views.staff, name='dashboard-staff'),

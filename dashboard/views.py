@@ -8,6 +8,12 @@ from django.contrib import messages
 
 # Create your views here.
 
+# functions includes 4 main parts: index, staff, product, order
+# staff includes: staff, staff_detail
+# product includes: product, product_delete, product_update
+
+
+#for the index page
 @login_required()
 def index(request):
     orders = Order.objects.all()
@@ -35,9 +41,11 @@ def index(request):
         'products_count': products_count,
         'workers_count': workers_count,
     }
-
+    # render the index.html from dashboard dir
     return render(request, 'dashboard/index.html', context)
 
+
+#for the staff page
 @login_required()
 def staff(request):
     workers = User.objects.all()
@@ -51,6 +59,7 @@ def staff(request):
         'orders_count': orders_count,
         'products_count': products_count,
     }
+    # render the staff.html
     return render(request, 'dashboard/staff.html', context)
 
 @login_required()

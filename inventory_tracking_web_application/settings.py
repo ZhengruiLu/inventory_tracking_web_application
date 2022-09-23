@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'dashboard.apps.DashboardConfig',
+    'dashboard.apps.DashboardConfig',#register the app dashboard
     'user.apps.UserConfig',
     'crispy_forms',
 ]
@@ -57,6 +57,7 @@ ROOT_URLCONF = 'inventory_tracking_web_application.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        # add UI templates from the base directory
         'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -147,4 +148,4 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'lzrmxx@gmail.com'
-EMAIL_HOST_PASSWORD = 'ChangChang@1'
+EMAIL_HOST_PASSWORD = 'ChangChang@1' #type your password instead
