@@ -1,6 +1,6 @@
-# Project - *Inventory_Tracking_Web_Application*
+# Project - *Inventory_Tracking_System_Web_Application*
 
-**Inventory_Tracking_Web_Application** is an web application using Django's URL routing and Python in the back-end.
+**Inventory_Tracking_System_Web_Application** is an full stack web application for inventory management using **Django**, including dashboard(staff) app and user(client) app.  This application uses **Python** in the back-end, with **bootstrap** integrated with **Chart.js** for data visualization in the front-end. It implemented the CRUD functionalities. It is **database-drived**, mainly with One-To-One and Foreign Key relationships.
 
 Submitted by: **Zhengrui Lu**
 
@@ -9,10 +9,16 @@ Time spent: **60** hours spent in total
 ## User Stories
 
 The following **required** functionality is completed:
+* [X] Staff can log in and log out into the Admin System. 
+* [X] Staff can get access to the statistics of staff, products, and orders after logging into the Admin System. 
+* [X] Staff can add, delete, update the information of staff, products, and orders.
+* [X] Users who identify as clients can log in, log out and sign up into the Customer System.
+* [X] Clients can send order request, including product name and quantity.
+* [X] Both Managers and Clients can update their profiles.
 
-* [X] Built a full stack application for inventory management in **Django** and **Python**, including dashboard and user apps.  
-* [X] Built an interface using **bootstrap** 4.6, integrated with **Chart.js** for data visualization
-* [X] Implemented the CRUD functionalities of a **database-driven** application, mainly with One-To-One and Foreign Key relationships.
+
+![image](https://user-images.githubusercontent.com/90216893/197897015-e25686a6-d469-42ed-b98e-43d7284cab11.png)
+
 
 ## Video Walkthrough
 
