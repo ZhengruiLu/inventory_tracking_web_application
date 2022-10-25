@@ -13,7 +13,6 @@ The following **required** functionality is completed:
 * [X] Built a full stack application for inventory management in **Django** and **Python**, including dashboard and user apps.  
 * [X] Built an interface using **bootstrap** 4.6, integrated with **Chart.js** for data visualization
 * [X] Implemented the CRUD functionalities of a **database-driven** application, mainly with One-To-One and Foreign Key relationships.
-* [X] Deployed the application onto AWS(Elastic Beanstalk) 
 
 ## Video Walkthrough
 
@@ -27,7 +26,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-* [X] Understand throughly about the whole development process of Django web application project 
+* [X] Understand throughly about the whole development process of Django web application project
+* [ ] Deploy the application onto AWS(Elastic Beanstalk) 
 * [ ] When deleting, allow deletion comments and undeletion
 * [ ] Ability to create warehouses/locations and assign inventory to specific locations
 * [ ] Ability to create “shipments” and assign inventory to the shipment, and adjust inventory appropriately
