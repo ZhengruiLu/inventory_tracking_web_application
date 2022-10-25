@@ -16,10 +16,6 @@ The following **required** functionality is completed:
 * [X] Clients can send order request, including product name and quantity.
 * [X] Both Managers and Clients can update their profiles.
 
-
-![image](https://user-images.githubusercontent.com/90216893/197897015-e25686a6-d469-42ed-b98e-43d7284cab11.png)
-
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
@@ -37,7 +33,6 @@ Describe any challenges encountered while building the app.
 * [ ] When deleting, allow deletion comments and undeletion
 * [ ] Ability to create warehouses/locations and assign inventory to specific locations
 * [ ] Ability to create “shipments” and assign inventory to the shipment, and adjust inventory appropriately
-
 
 ## License
 
